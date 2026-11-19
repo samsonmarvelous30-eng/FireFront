@@ -1,0 +1,40 @@
+[gd_scene format=3]
+
+[node name="Lobby" type="Control"]
+
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0.025, 0.04, 0.09, 1)
+
+[node name="GameTitle" type="Label" parent="."]
+offset_left = 30.0
+offset_top = 25.0
+offset_right = 700.0
+offset_bottom = 100.0
+text = "FIREFRONT"
+theme_override_font_sizes/font_size = 48
+
+[node name="PlayerName" type="Label" parent="."]
+offset_left = 30.0
+offset_top = 130.0
+offset_right = 500.0
+offset_bottom = 180.0
+text = "PLAYER: SKYLER"
+
+[node name="PlayButton" type="Button" parent="."]
+offset_left = 400.0
+offset_top = 550.0
+offset_right = 850.0
+offset_bottom = 630.0
+text = "START BATTLE"
+theme_override_font_sizes/font_size = 30
