@@ -1,0 +1,48 @@
+[gd_scene format=3]
+
+[node name="CharacterSelect" type="Control"]
+
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0.025, 0.04, 0.09, 1)
+
+[node name="Title" type="Label" parent="."]
+offset_left = 30.0
+offset_top = 30.0
+offset_right = 600.0
+offset_bottom = 100.0
+text = "CHOOSE YOUR FIGHTER"
+theme_override_font_sizes/font_size = 36
+
+[node name="CharacterName" type="Label" parent="."]
+offset_left = 30.0
+offset_top = 150.0
+offset_right = 500.0
+offset_bottom = 210.0
+text = "SKYLER"
+theme_override_font_sizes/font_size = 42
+
+[node name="CharacterDescription" type="Label" parent="."]
+offset_left = 30.0
+offset_top = 220.0
+offset_right = 550.0
+offset_bottom = 300.0
+text = "First original FireFront character"
+autowrap_mode = 2
+
+[node name="SelectButton" type="Button" parent="."]
+offset_left = 30.0
+offset_top = 350.0
+offset_right = 280.0
+offset_bottom = 410.0
+text = "SELECT CHARACTER"
